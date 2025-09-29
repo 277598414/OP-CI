@@ -33,7 +33,7 @@ jobs:
       #max-parallel: 3
       matrix:
         CONFIG: [MEDIATEK, ROCKCHIP, X86]
-        SOURCE: [277598414/immortalwrt]
+        SOURCE: [immortalwrt/immortalwrt]
         BRANCH: [master]
 
     #调用公用编译核心WRT-CORE.yml
